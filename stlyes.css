@@ -1,0 +1,50 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+</style>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: pink;
+}
+
+header{
+  background: black;
+/*  padding: 30px;*/
+  border-radius: 25%;
+}
+
+header > h1 {
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.response{
+  font-size: 20px;
+  color: black;
+}
+
+.response > p {
+  text-align: center;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.photos{
+    text-align: center;
+}
+
+.photo{
+  display: inline-block;
+}
+
+p{
+  text-align: center;
+}
